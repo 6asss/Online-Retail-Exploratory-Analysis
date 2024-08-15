@@ -1,7 +1,7 @@
 # Online Retail Exploratory Data Analysis (EDA)
 
 ## Project Overview
-This project involves conducting an exploratory data analysis (EDA) on transactional data from an online retail store. The dataset contains customer purchases, including product details, quantities, prices, and timestamps. The primary goal is to uncover insights into the store's sales trends, customer behavior, and popular products. The findings from this analysis can inform strategic business decisions and enhance overall store performance.
+This project involves conducting an exploratory data analysis (EDA) on transactional data from an online retail store. The dataset contains customer purchases, including product details, quantities, prices, and timestamps. The main goal here is to uncover insights into the store's sales trends, consumer behavior, and popular products. The findings from this analysis can inform strategic business decisions and enhance the overall performance of the store.
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
@@ -39,20 +39,20 @@ The dataset used in this analysis consists of transactional data from an online 
 - `Country`: Country where the transaction occurred.
 
 ## Project Objectives
-- Describe the data to answer key questions and uncover insights.
-- Gain valuable insights that can help improve online retail performance.
+- Descriptive analysis to answer key questions and uncover insights.
+- Gain valuable insights that can help improve overall online retail performance.
 - Provide analytic insights and data-driven recommendations.
 
 ## Steps in the Analysis
 
 ### 1. Load the Data
-The data was loaded using pandas, and the first few rows were displayed to gain an initial understanding of the dataset. The data types of each column were also examined.
+Pandas was used to load the data and to also get a preliminary overview of the dataset by displaying the first few rows. The data types of each column were also examined.
 
 ### 2. Data Cleaning
-This step involved addressing missing values and removing duplicates from the dataset. Missing values were dropped, resulting in a cleaned DataFrame ready for analysis.
+This step involved addressing missing values and removing duplicates from the dataset. After missing values were dropped, the result was a clean DataFrame ready for analysis.
 
 ### 3. Statistical Summary
-A concise overview of the data's central tendency and spread was obtained using the `df.describe()` method. The summary helped identify outliers and potential issues in the data, such as negative quantities and sales.
+Using the `df.describe()` method, a brief description of the data's central tendency (mean, mode, and median) and spread was obtained. The summary helped to identify outliers and potential issues in the data, such as negative values for quantities and sales.
 
 ### 4. Top-selling Products and Countries
 The analysis focused on identifying the top-selling products and countries by sales. Various visualizations, such as bar charts, were used to highlight the most valuable products and the countries with the highest sales.
