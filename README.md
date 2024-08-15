@@ -62,19 +62,19 @@ Sales trends were analyzed on a monthly and daily basis. New columns were create
 
 ## Results
 ### Top-selling Products
-![Top-selling Products Bar Chart](path/to/top_selling_products_bar_chart.jpeg)
+![Top-selling Products Bar Chart](images/top_selling_products_bar_chart.jpeg)
 This bar chart shows which products are generating the most sales.
 
 ### Sales Trends Over Time
-![Sales Trends Over Time Line Chart](path/to/sales_trends_over_time_line_chart.png)
+![Sales Trends Over Time Line Chart](images/sales_trends_over_time_line_chart.png)
 This line chart illustrates how sales vary over time, helping to identify patterns or trends.
 
 ### Top-selling Countries
-![Top-selling Countries Bar Chart](path/to/top_selling_countries_bar_chart.png)
+![Top-selling Countries Bar Chart](images/top_selling_countries_bar_chart.png)
 This bar chart highlights the geographic distribution of sales, useful for understanding market performance.
 
 ### Sales Distribution
-![Daily Sales Distribution Histogram](path/to/sales_distribution_histogram.png)
+![Daily Sales Distribution Histogram](images/sales_distribution_histogram.png)
 This histogram shows the distribution of sales values.
 
 ## Outliers and Recommendations
