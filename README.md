@@ -1,7 +1,3 @@
-Got it! Here's the updated README.md with the added note on outliers:
-
----
-
 # Online Retail Exploratory Data Analysis (EDA)
 
 ## Project Overview
@@ -65,9 +61,21 @@ The analysis focused on identifying the top-selling products and countries by sa
 Sales trends were analyzed on a monthly and daily basis. New columns were created to extract the month and day of the week from the `InvoiceDate` column. Line charts and other visualizations were used to identify the busiest sales periods.
 
 ## Results
-- **Top-selling Products**: The top-selling product was the "REGENCY CAKESTAND 3 TIER," followed by the "WHITE HANGING HEART T-LIGHT HOLDER" and "JUMBO BAG RED RETROSPOT."
-- **Top-selling Countries**: The United Kingdom had the highest sales, followed by the Netherlands and Ireland.
-- **Sales Trends**: The busiest month for sales was November 2011, and the busiest day of the week was Thursday.
+### Top-selling Products
+![Top-selling Products Bar Chart](path/to/top_selling_products_bar_chart.jpeg)
+This bar chart shows which products are generating the most sales.
+
+### Sales Trends Over Time
+![Sales Trends Over Time Line Chart](path/to/sales_trends_over_time_line_chart.png)
+This line chart illustrates how sales vary over time, helping to identify patterns or trends.
+
+### Top-selling Countries
+![Top-selling Countries Bar Chart](path/to/top_selling_countries_bar_chart.png)
+This bar chart highlights the geographic distribution of sales, useful for understanding market performance.
+
+### Sales Distribution
+![Daily Sales Distribution Histogram](path/to/sales_distribution_histogram.png)
+This histogram shows the distribution of sales values.
 
 ## Outliers and Recommendations
 - **Outliers**: Outliers were identified using statistical methods, such as the z-score. Some identified outliers include transactions with extremely high quantities or unit prices. However, considering the data's context and analysis goals, removing all outliers might not be appropriate because these valid entries might hold valuable information and impact overall analysis.
