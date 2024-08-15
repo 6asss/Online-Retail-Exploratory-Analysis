@@ -74,7 +74,7 @@ This line chart illustrates how sales vary over time, helping to identify patter
 This bar chart highlights the geographic distribution of sales, useful for understanding market performance.
 
 ### Sales Distribution
-![Daily Sales Distribution Histogram](images/sales_distribution_histogram.png)
+![Daily Sales Distribution Histogram](images/sales_distribution_histogram.jpeg)
 This histogram shows the distribution of sales values.
 
 ## Outliers and Recommendations
